@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-import PIL
-from PIL import Image
+import sklearn
 import pandas as pd
 import numpy as np
 import streamlit as st
+import PIL
+from PIL import Image
 import pickle
 from pickle import dump
 from pickle import load
