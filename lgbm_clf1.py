@@ -6,7 +6,6 @@ from PIL import Image
 import pandas as pd
 import numpy as np
 import streamlit as st
-import lightgbm as ltb
 import pickle
 from pickle import dump
 from pickle import load
