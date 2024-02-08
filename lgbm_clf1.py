@@ -44,7 +44,7 @@ def main():
     
     # Set up page.
     
-    image_path = r"C:\Users\Siddhant Sonawane\OneDrive\Documents\ExcelR Project\DS Projects\Churn_Prediction Project\OIP.jpg"
+    image_path = r"C:\Users\Siddhant Sonawane\OneDrive\Documents\ExcelR Project\DS Projects\Churn_Prediction Project"
     image = Image.open(image_path)
     # Set custom page title and icon
     PAGE_CONFIG = {
