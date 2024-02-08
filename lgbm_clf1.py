@@ -43,11 +43,9 @@ def prediction(account_length,voice_plan,intl_plan,intl_calls,intl_charge,day_ca
 def main():
     
     # Set up page
-    image = Image.open('OPI.jpg')
     # Set custom page title and icon
     PAGE_CONFIG = {
          "page_title": "Customer Churn Prediction",
-        "page_icon": image,
         "layout": "centered"
         }
     st.set_page_config(**PAGE_CONFIG)
