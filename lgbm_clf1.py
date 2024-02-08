@@ -42,10 +42,8 @@ def prediction(account_length,voice_plan,intl_plan,intl_calls,intl_charge,day_ca
 # this is the main function in which we define our webpage  
 def main():
     
-    # Set up page.
-    
-    image_path = r"C:\Users\Siddhant Sonawane\OneDrive\Documents\ExcelR Project\DS Projects\Churn_Prediction Project\OIP.jpg"
-    image = Image.open(image_path)
+    # Set up page
+    image = Image.open('OPI.jpg')
     # Set custom page title and icon
     PAGE_CONFIG = {
          "page_title": "Customer Churn Prediction",
