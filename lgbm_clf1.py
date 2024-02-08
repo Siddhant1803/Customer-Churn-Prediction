@@ -55,6 +55,7 @@ def main():
     st.set_page_config(**PAGE_CONFIG)
     
     #theme
+    [theme] 
     primaryColor="D0BDF0"
     backgroundColor="#BFB9FA"
     secondaryBackgroundColor="#D0BDF0"
