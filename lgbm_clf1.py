@@ -44,7 +44,7 @@ def main():
     
     # Set up page.
     
-    image_path = r"C:\Users\Siddhant Sonawane\OneDrive\Documents\ExcelR Project\DS Projects\Churn_Prediction Project"
+    image_path = r"C:\Users\Siddhant Sonawane\OneDrive\Documents\ExcelR Project\DS Projects\Churn_Prediction Project\OIP.jpg"
     image = Image.open(image_path)
     # Set custom page title and icon
     PAGE_CONFIG = {
@@ -53,15 +53,7 @@ def main():
         "layout": "centered"
         }
     st.set_page_config(**PAGE_CONFIG)
-    
-    #theme
-    [theme] 
-    primaryColor="D0BDF0"
-    backgroundColor="#BFB9FA"
-    secondaryBackgroundColor="#D0BDF0"
-    textColor="#001747"
-    font="sans serif"
-    
+  
     #Title 
     st.title("Customer Churn Prediction🔄️")
     
